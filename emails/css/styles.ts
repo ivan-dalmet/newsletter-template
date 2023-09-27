@@ -14,6 +14,40 @@ export const styles = {
   section: {
     margin: '8px 0',
   },
+  agendaContainer: {
+    margin: '24px 0',
+    background: '#fafafa',
+    borderRadius: '8px',
+  },
+  agendaInner: {
+    padding: '12px 20px'
+  },
+  agendaTitle: {
+    color: theme.colors.brand,
+    fontFamily: theme.fontFamily.sans,
+    fontSize: '16px',
+    fontWeight: 'bold',
+    margin: '8px 0',
+    padding: '0',
+  },
+  agendaRow: {
+    margin: '0 0 8px',
+  },
+  agendaDateText: {
+    color: theme.colors.text,
+    fontFamily: theme.fontFamily.sans,
+    fontSize: '12px',
+    fontWeight: 'bold',
+    lineHeight: '1.5',
+    margin: '0',
+  },
+  agendaDescriptionText: {
+    color: theme.colors.text,
+    fontFamily: theme.fontFamily.sans,
+    fontSize: '14px',
+    lineHeight: '1.5',
+    margin: '0',
+  },
   image: {
     maxWidth: '100%',
   },

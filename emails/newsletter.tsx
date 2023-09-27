@@ -15,7 +15,7 @@ import {
 import React from 'react';
 import { styles } from './css/styles';
 
-const baseUrl = ""
+const baseUrl = "http://192.168.50.226"
 
 export const Newsletter = () => {
   return (
@@ -27,6 +27,7 @@ export const Newsletter = () => {
           <Section style={{...styles.section, marginBottom: '20px' }}>
             <Img width={620} style={styles.image} src={`${baseUrl}/static/banner.jpg`} alt="Club des professionnels de l'ENSA Normandie" />
           </Section>
+
 
           <Section style={styles.section}>
             <Heading style={styles.h1}>
@@ -64,12 +65,35 @@ export const Newsletter = () => {
             </Text>
           </Section>
 
+          <Section style={styles.agendaContainer}>
+            <Container style={styles.agendaInner}>
+              <Heading style={styles.agendaTitle}>
+                Agenda
+              </Heading>
 
-            {/* <Button pY={10} pX={20} style={styles.button}>Learn More</Button> */}
+              <Container style={styles.agendaRow}>
+                <Text style={styles.agendaDateText}>
+                  11 sept. 2023
+                </Text>
+                <Text style={styles.agendaDescriptionText}>
+                  Conférence – Matériaux, déchets, expérimentation : Par Alphonse Sarthout (Cigüe)
+                </Text>
+              </Container>
+
+              <Container style={styles.agendaRow}>
+                <Text style={styles.agendaDateText}>
+                  11 sept. 2023
+                </Text>
+                <Text style={styles.agendaDescriptionText}>
+                  Conférence – Matériaux, déchets, expérimentation : Par Alphonse Sarthout (Cigüe)
+                </Text>
+              </Container>
+
+            </Container>
+          </Section>
 
           <Section style={styles.footer}>
-              © 2022 | Yelp Inc., 350 Mission Street, San Francisco, CA 94105,
-              U.S.A. | www.yelp.com
+              © ENSA Rouen
           </Section>
         </Container>
       </Body>
