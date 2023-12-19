@@ -83,8 +83,6 @@ export const Newsletter = () => {
               et Claire Rosset, docteures en architecture.
             </Text>
             <Button
-              pY={10}
-              pX={20}
               style={styles.button}
               href="https://ensa-normandie.fr/conference-explorer-de-nouveaux-lieux-de-larchitecture-une-pratique-feminine/"
             >
