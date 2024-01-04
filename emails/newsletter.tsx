@@ -14,8 +14,6 @@ import React from "react";
 import { styles } from "./css/styles";
 import { AgendaItem } from "./components/Agenda";
 
-const baseUrl = "http://192.168.50.226";
-
 export const Newsletter = () => {
   return (
     <Html>
@@ -27,7 +25,7 @@ export const Newsletter = () => {
             <Img
               width={620}
               style={styles.image}
-              src={`${baseUrl}/static/banner.jpg`}
+              src="https://ensa-normandie.fr/wp-content/uploads/2023/10/actus-club-des-pro-de-lensan-scaled.jpg"
               alt="Club des professionnels de l'ENSA Normandie"
             />
           </Section>
