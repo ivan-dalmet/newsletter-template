@@ -27,11 +27,11 @@ export const styles = {
     fontFamily: theme.fontFamily.sans,
     fontSize: "16px",
     fontWeight: "bold",
-    margin: "8px 0",
+    margin: "8px 0 24px 0",
     padding: "0",
   },
   agendaRow: {
-    margin: "0 0 8px",
+    margin: "0 0 24px",
   },
   agendaDateText: {
     color: theme.colors.text,
@@ -40,6 +40,18 @@ export const styles = {
     fontWeight: "bold",
     lineHeight: "1.5",
     margin: "0",
+  },
+  agendaAction: {
+    color: theme.colors.brand,
+    fontFamily: theme.fontFamily.sans,
+    fontSize: "12px",
+    fontWeight: "bold",
+    textDecoration: "underline",
+    lineHeight: "1.5",
+    margin: "0",
+  },
+  agendaDivider: {
+    margin: "4px 0",
   },
   agendaDescriptionText: {
     color: theme.colors.text,

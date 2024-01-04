@@ -98,9 +98,13 @@ export const Newsletter = () => {
                 Sarthout (Cigüe)
               </AgendaItem>
 
-              <AgendaItem date="11 sept. 2023">
-                Conférence – Matériaux, déchets, expérimentation : Par Alphonse
-                Sarthout (Cigüe)
+              <AgendaItem
+                date="06 Déc. 2023"
+                link="https://www.union-habitat.org/evenements/ensemble-relevons-les-defis-du-logement-dans-les-petites-villes"
+                linkText="S'inscrire"
+              >
+                Conférence nationale de Barentin « Ensemble, relevons les défis
+                du logement dans les petites villes
               </AgendaItem>
             </Container>
           </Section>
